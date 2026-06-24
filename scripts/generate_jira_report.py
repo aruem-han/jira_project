@@ -7,17 +7,24 @@ JIRA_EMAIL = os.environ["JIRA_EMAIL"]
 JIRA_API_TOKEN = os.environ["JIRA_API_TOKEN"]
 
 auth = (JIRA_EMAIL, JIRA_API_TOKEN)
-base_url = f"https://{JIRA_URL}/rest/api/2"
+base_url = f"https://{JIRA_URL}/rest/api/3"
+
+# 계정 ID 조회
+me = requests.get(f"{base_url}/myself", auth=auth)
+me.raise_for_status()
+account_id = me.json()["accountId"]
+print(f"Account ID: {account_id}")
 
 
 def search_issues(jql, max_results=100):
-    res = requests.get(
-        f"{base_url}/search",
+    res = requests.post(
+        f"{base_url}/search/jql",
         auth=auth,
-        params={
+        headers={"Content-Type": "application/json", "Accept": "application/json"},
+        json={
             "jql": jql,
             "maxResults": max_results,
-            "fields": "summary,status,priority,created,updated,resolutiondate,project",
+            "fields": ["summary", "status", "priority", "created", "updated", "resolutiondate", "project"],
         },
     )
     if not res.ok:
@@ -27,10 +34,10 @@ def search_issues(jql, max_results=100):
 
 
 assigned = search_issues(
-    "assignee = currentUser() AND statusCategory != Done ORDER BY updated DESC"
+    f"assignee = '{account_id}' AND statusCategory != Done ORDER BY updated DESC"
 )
 resolved = search_issues(
-    "assignee = currentUser() AND statusCategory = Done ORDER BY updated DESC"
+    f"assignee = '{account_id}' AND statusCategory = Done ORDER BY updated DESC"
 )
 
 today = datetime.now().strftime("%Y-%m-%d")
