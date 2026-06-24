@@ -7,32 +7,23 @@ JIRA_EMAIL = os.environ["JIRA_EMAIL"]
 JIRA_API_TOKEN = os.environ["JIRA_API_TOKEN"]
 
 auth = (JIRA_EMAIL, JIRA_API_TOKEN)
-base_url = f"https://{JIRA_URL}/rest/api/3"
+base_url = f"https://{JIRA_URL}/rest/api/2"
 
 
-def search_issues(jql, max_results=200):
-    issues, start = [], 0
-    while True:
-        res = requests.post(
-            f"{base_url}/search/jql",
-            auth=auth,
-            headers={"Content-Type": "application/json"},
-            json={
-                "jql": jql,
-                "startAt": start,
-                "maxResults": 50,
-                "fields": ["summary", "status", "priority", "created", "updated", "resolutiondate", "project"],
-            },
-        )
-        if not res.ok:
-            print(f"Error {res.status_code}: {res.text}")
-            res.raise_for_status()
-        data = res.json()
-        issues.extend(data["issues"])
-        if len(issues) >= data["total"] or len(issues) >= max_results:
-            break
-        start += 50
-    return issues
+def search_issues(jql, max_results=100):
+    res = requests.get(
+        f"{base_url}/search",
+        auth=auth,
+        params={
+            "jql": jql,
+            "maxResults": max_results,
+            "fields": "summary,status,priority,created,updated,resolutiondate,project",
+        },
+    )
+    if not res.ok:
+        print(f"Error {res.status_code}: {res.text}")
+        res.raise_for_status()
+    return res.json().get("issues", [])
 
 
 assigned = search_issues(
