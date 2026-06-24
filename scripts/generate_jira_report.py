@@ -13,14 +13,14 @@ base_url = f"https://{JIRA_URL}/rest/api/3"
 def search_issues(jql, max_results=200):
     issues, start = [], 0
     while True:
-        res = requests.get(
-            f"{base_url}/search",
+        res = requests.post(
+            f"{base_url}/search/jql",
             auth=auth,
-            params={
+            json={
                 "jql": jql,
                 "startAt": start,
                 "maxResults": 50,
-                "fields": "summary,status,priority,created,updated,resolutiondate,project",
+                "fields": ["summary", "status", "priority", "created", "updated", "resolutiondate", "project"],
             },
         )
         res.raise_for_status()
