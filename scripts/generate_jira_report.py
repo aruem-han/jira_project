@@ -16,6 +16,7 @@ def search_issues(jql, max_results=200):
         res = requests.post(
             f"{base_url}/search/jql",
             auth=auth,
+            headers={"Content-Type": "application/json"},
             json={
                 "jql": jql,
                 "startAt": start,
@@ -23,7 +24,9 @@ def search_issues(jql, max_results=200):
                 "fields": ["summary", "status", "priority", "created", "updated", "resolutiondate", "project"],
             },
         )
-        res.raise_for_status()
+        if not res.ok:
+            print(f"Error {res.status_code}: {res.text}")
+            res.raise_for_status()
         data = res.json()
         issues.extend(data["issues"])
         if len(issues) >= data["total"] or len(issues) >= max_results:
@@ -33,10 +36,10 @@ def search_issues(jql, max_results=200):
 
 
 assigned = search_issues(
-    f'assignee = "{JIRA_EMAIL}" AND statusCategory != Done ORDER BY updated DESC'
+    "assignee = currentUser() AND statusCategory != Done ORDER BY updated DESC"
 )
 resolved = search_issues(
-    f'assignee = "{JIRA_EMAIL}" AND statusCategory = Done ORDER BY updated DESC'
+    "assignee = currentUser() AND statusCategory = Done ORDER BY updated DESC"
 )
 
 today = datetime.now().strftime("%Y-%m-%d")
