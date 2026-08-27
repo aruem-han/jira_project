@@ -1,0 +1,227 @@
+# Jira Weekly Report - 2026-08-27
+
+## Assigned Issues (10)
+
+- **[SDPFMPE-1218]** IOMS SMS(문자발송) 기능 추가 
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+- **[HEYB-27]** [구매사] 장바구니 포인트 사용
+  - Project: Heybuy 복지몰 구축 | Status: `진행 중` | Priority: `Medium`
+- **[HEYB-26]** [구매사] 사업장 관리
+  - Project: Heybuy 복지몰 구축 | Status: `진행 중` | Priority: `Medium`
+- **[SDPFMPE-1323]** IOMS 협력사 조직도 기능 추가
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+- **[SDPFMPE-1410]** 공지사항, 자재상세 설명에서 동영상 첨부파일 업로드 허용요청  
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+- **[SDPFMPE-1390]** 데이터 중복 전송
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+- **[HEYB-25]** [구매사] 사업장/사용자 지급·회수
+  - Project: Heybuy 복지몰 구축 | Status: `진행 중` | Priority: `Medium`
+- **[SDPFMPE-1217]** IOMS Q&A 요청 건
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+- **[SDPFMPE-1286]** 장바구니 "상품요청사항" 확대 적용의 건
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+- **[SDPFMPE-1310]** [HEYBUY] 상품관리 > 상품진열정보 > 상품진열이력조회 기능 오류 
+  - Project: Heybuy 등 운영 시스템 | Status: `처리 중` | Priority: `Medium`
+
+## Resolved Issues (100)
+
+- **[SDPFMPE-1411]** 상품 상세페이지 공급사 전화번호 노출 오류 확인 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-27`
+- **[SDPFMPE-1397]** IOMS 일일작업 주간/야간/심야 블라인드 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-27`
+- **[SDPFMPE-1415]** [HOMS] 동대구지점 정성원사용자 지급자 표기 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-27`
+- **[SDPFMPE-1408]** [HOMS] 지급자 정보 일괄 변경 요청 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-26`
+- **[HEYB-23]** [구매사] 승인 처리내역
+  - Project: Heybuy 복지몰 구축 | Resolved: `2026-08-26`
+- **[HEYB-24]** [구매사] 지급 승인관리
+  - Project: Heybuy 복지몰 구축 | Resolved: `2026-08-26`
+- **[SDPFMPE-1378]** 품종 상품 실적집계 보완
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-25`
+- **[SDPFMPE-1392]** 월별 매입가와 매출원가 수정
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-14`
+- **[SDPFMPE-1402]** 품목 일괄 반품 처리 요청의 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-21`
+- **[SDPFMPE-1404]** 긴급) 상품 노출 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-21`
+- **[HEYB-22]** [구매사] 예산 승인관리/상세
+  - Project: Heybuy 복지몰 구축 | Resolved: `2026-08-20`
+- **[SDPFMPE-1388]** HOMS 지급자 명단 누락 및 작업자 등록 오류 조치 요청 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-14`
+- **[SDPFMPE-1361]** IOMS 일일작업 주간/야간 표기 오류 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-11`
+- **[SDPFMPE-1382]** IOMS 샘플파일 변경 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-11`
+- **[SDPFMPE-1327]** 긴급/중요] 구매사 자재조회 화면에서 "관심상품" 등록 버튼 활성화
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-30`
+- **[SDPFMPE-1227]** [HOMS] 주문이력 > 특정 주문 건 주문유형 변경 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-02`
+- **[SDPFMPE-1220]** heybuy 세금계산서 검색 변경요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-03`
+- **[SDPFMPE-1212]** [홈앤서비스] 지급자 화면 개선 요청의 件
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-19`
+- **[SDPFMPE-1211]** [홈앤서비스] 주문 승인 화면 개선 요청의 件
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-19`
+- **[SDPFMPE-1209]** [수정 요청] 옵션상품 특이사항 노출 관련
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-14`
+- **[SDPFMPE-1201]** wms 불량 > 양품전환 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-11`
+- **[SDPFMPE-1198]** 긴급/중요] 카톡 메시시 발송 내역 확인 및 삭제 처리 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-12`
+- **[SDPFMPE-1184]** [HOMS] 사업장 이름명칭 변경 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-07`
+- **[SDPFMPE-1372]** IOMS_도급정산내역(운.광) /  세금계산서 발행 내역 삭제 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-07`
+- **[SDPFMPE-1255]** [긴급] 상품 단종 요청 시 물류 재고 소진을 위한 노출 로직 변경 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-06`
+- **[SDPFMPE-944]** OKP 기능개선 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-06`
+- **[SDPFMPE-1236]** 운영사] 자재일괄 엑셀 업로드시 필수 필드 제외 처리  
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-06`
+- **[SDPFMPE-683]** 긴급] 자재 반품시 단가 오류에 따른 수정 요청 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-06`
+- **[SDPFMPE-1367]** 관리자]상품조회
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-06`
+- **[SDPFMPE-1298]** [정산 데이터 복구 요청] 공급사 중복 출고로 인한 주문 내역 복원
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-08`
+- **[SDPFMPE-1364]** 지정자재 판매가 및 매입가에 대한 엑셀 제공 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-05`
+- **[SDPFMPE-1346]** [WMS] 매입주문 물류센터 오류 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-05`
+- **[HEYB-16]** [구매사] 포인트 사용이력
+  - Project: Heybuy 복지몰 구축 | Resolved: `2026-08-05`
+- **[HEYB-17]** [구매사] 포인트 지급이력
+  - Project: Heybuy 복지몰 구축 | Resolved: `2026-08-05`
+- **[HEYB-18]** [구매사] 포인트 유형별 현황
+  - Project: Heybuy 복지몰 구축 | Resolved: `2026-08-05`
+- **[SDPFMPE-1356]** HOMS 주문이력조회 데이터 오류의 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-05`
+- **[SDPFMPE-1358]** IOMS 데이터 삭제요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-04`
+- **[SDPFMPE-1334]** 물류입고 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-30`
+- **[SDPFMPE-1350]** [HOMS] HOMS화면 "주문이력조회" 내에서 상품유형 데이터 수정요청 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-03`
+- **[SDPFMPE-1291]** 자동물량배정처리 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-03`
+- **[SDPFMVN-1295]** [CPS]주문일 수동변경 기능 추가 
+  - Project: VNOS | Resolved: `2026-03-27`
+- **[SDPFMPE-1345]** WMS 재고조회 후 엑셀다운로드 에러 발생 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-08-03`
+- **[SDPFMPE-1347]** WMS 엑셀 다운 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-31`
+- **[SDPFMPE-1341]** 일괄등록 시 세부품종코드 오류 발생
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-31`
+- **[SDPFMPE-1321]** 주문 상태값 볁경처리 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-23`
+- **[SDPFMPE-1330]** IOMS/MSMS 개선 요청 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-30`
+- **[SDPFMPE-1329]** 물류센터 신규 등록시 "주소" 검색 활성화 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-30`
+- **[SDPFMPE-1340]** 정보 삭제 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-30`
+- **[SDPFMPE-1324]** 수동 인수완료건에 대한 수정 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-24`
+- **[SDPFMPE-1320]** 홈앤서비스 화면 개선 및 반품 처리 요청 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-23`
+- **[SDPFMPE-1229]** [HEYBUY] 인수증 출력 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-04`
+- **[SDPFMPE-1316]** [PTCE] 물류매입 주문 건 바코드 변경 요청의 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-16`
+- **[SDPFMPE-1300]** 운영사 [상품관리] > [상품일괄등록] 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-16`
+- **[SDPFMPE-1315]** 관리자]실적조회 상세 화면 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-16`
+- **[SDPFMPE-1244]** 안전장비 구매 이력 내 지급자 정보 오류 확인 및 개선 요청 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-14`
+- **[SDPFMPE-1309]** 주문상세 내역에서 납품요청일 저장 처리 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-14`
+- **[SDPFMPE-1314]** 인수완료건이 공급사 화면에 남아있습니다
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-14`
+- **[SDPFMPE-1313]** 품질검사 데이터 삭제 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-14`
+- **[SDPFMPE-1303]** IOMS 일일작업관리 등록 건 오류 현상
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-09`
+- **[SDPFMPE-1308]** HEYBUY 메인화면 수정 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-09`
+- **[SDPFMPE-1305]** (긴급) 6인치 안전화 규격 명 수정 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-09`
+- **[SDPFMPE-1296]** [WMS] 재고 매입주문 시 배분율 실적 누계금액 오류 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-07`
+- **[SDPFMPE-1293]** 재고 양품 전환 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-07`
+- **[SDPFMPE-1282]** 품종수정 화면에서 내용 확인 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-07`
+- **[SDPFMPE-1299]** IOMS 이텍스정산현황 다운로드 관련 개선
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-07`
+- **[SDPFMPE-1301]** IOMS Q&A 요청 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-07`
+- **[SDPFMPE-1249]** HeyBuy 거래명세서 선택 기능 관련
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-06`
+- **[SDPFMPE-1283]** 주문 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-06`
+- **[SDPFMPE-1287]** IOMS데이터 삭제 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-06`
+- **[SDPFMPE-1292]** [HOMS] HNS금천지점 주문 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-02`
+- **[SDPFMPE-1285]** 매출확정 취소요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-07-02`
+- **[SDPFMPE-1262]** wms 출고 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-30`
+- **[SDPFMPE-1280]** WMS 사용자 등록 처리 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-30`
+- **[SDPFMPE-1279]** 옵션상품 선택 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-29`
+- **[SDPFMPE-1277]** 공급사 중복출고 오류 수정요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-29`
+- **[SDPFMPE-1273]** IOMS Q&A 요청 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-29`
+- **[SDPFMPE-1228]** [HEYBUY] 주문번호 일괄 인수증 출력 시 주소 표기 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-22`
+- **[SDPFMPE-1274]** 중복주문 오류수정 요청의 件
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-19`
+- **[SDPFMPE-1269]** 물류매입 주문 건 매입단가 기입 요청 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-19`
+- **[SDPFMPE-1266]** [WMS] WMS 출고확정 기능 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-19`
+- **[SDPFMPE-1265]** 담당자 안내표 수정 요청
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-19`
+- **[SDPFMPE-1261]** [WMS] WMS 출하건 바코드 매핑오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-15`
+- **[SDPFMPE-1257]** [HOMS]  정상 상품 상품 구매 오류건 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-12`
+- **[SDPFMPE-1250]** 기간 설정 후 엑셀 내려받으면 "매출실적월" 미표기 상태 입니다.
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-09`
+- **[SDPFMVN-917]** 카드관리 및 카드등록시, 차량번호 입력 가능 여부 확인 및 수정 요청
+  - Project: VNOS | Resolved: `2026-06-09`
+- **[SDPFMPE-1248]** 구매사 인수증 출력 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-09`
+- **[SDPFMPE-1245]** [HOMS] SDPFMPE-1238 동일 오류 건 재발생 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-04`
+- **[SDPFMPE-1241]** 홈앤서비스 신규상품요청 기능 삭제 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-04`
+- **[SDPFMPE-1238]** [HOMS] HNS_중부산 지점 재고조사 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-02`
+- **[SDPFMPE-1235]** [HOMS, WMS, HEYBUY] 시스템 오류 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-02`
+- **[SDPFMPE-1239]** 중요]  공급사 자재등록 요청시 에러 발생  
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-01`
+- **[SDPFMPE-658]** 일괄 반려 기능 가능 여부 검토 부탁드립니다.
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-06-01`
+- **[SDPFMPE-1224]** [HOMS] 조직간 자재 이동 기능 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-27`
+- **[SDPFMPE-1221]** [HOMS] 수도권1본부_지점_성동 "박종수" 사용자 계정 오류 건
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-22`
+- **[SDPFMPE-1034]** 정산관리화면 개선
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-21`
+- **[SDPFMPE-952]** 개인별 항목 설정 칼럼 개선
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-21`
+- **[SDPFMPE-1194]** wms 재고조정처리 오류
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-11`
+- **[SDPFMPE-1199]** 운영사]수동주문처리 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-05-11`
+- **[SDPFMPE-1180]** [WMS] 매입주문화면 오류 
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-04-29`
+- **[SDPFMPE-1177]** HEYBUY 실적조회 기능 오류_엑셀다운로드
+  - Project: Heybuy 등 운영 시스템 | Resolved: `2026-04-28`
